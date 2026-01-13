@@ -24,6 +24,7 @@ import IconeCoracao from "./assets/icones/coracao.png";
 import IconePessoaEngrenagem from "./assets/icones/pessoaengrenagem.png";
 import IconeAlvo from "./assets/icones/alvo.png";
 import IconceLink from "./assets/icones/link-solid-full.svg";
+import IconeConfirmacao from "./assets/icones/confirmacao.svg";
 
 import ImagemOqueE from "./assets/arts/bloco - o que é a comunidade de alta performance integral.png";
 import ImagemParaQuem from "./assets/arts/bloco  - pra quem é essa comunidade 1.png";
@@ -111,9 +112,7 @@ const App = () => {
               <img src={Iconegrafico} alt="" id="IconeGrafico" />
             </div>
 
-            <p>
-              Alterna entre picos de motivação<br></br>e períodos de estagnação
-            </p>
+            <p>Alterna entre picos de motivação e períodos de estagnação</p>
           </div>
 
           <div className="icone1">
@@ -156,25 +155,41 @@ const App = () => {
         <div className="infos" data-aos="fade-right">
           <h1>Para quem essa comunidade é?</h1>
           <h3>Essa comunidade é para pessoas que:</h3>
-          <p>Querem produzir mais, sem sacrificar a saúde mental</p>
-          <br></br>
-
-          <p>Buscam disciplina, foco e constância, sem viver sob pressão</p>
-          <br></br>
-
-          <p>Entendem que resultado começa pelo corpo e pela mente</p>
+          <p>
+            {" "}
+            <img src={IconeConfirmacao} alt="" />
+            Querem produzir mais, sem sacrificar a saúde mental
+          </p>
           <br></br>
 
           <p>
+            <img src={IconeConfirmacao} alt="" />
+            Buscam disciplina, foco e constância, sem viver sob pressão
+          </p>
+          <br></br>
+
+          <p>
+            <img src={IconeConfirmacao} alt="" />
+            Entendem que resultado começa pelo corpo e pela mente
+          </p>
+          <br></br>
+
+          <p>
+            <img src={IconeConfirmacao} alt="" />
             Já tentaram várias abordagens, mas sentem falta de estrutura e
             direção
           </p>
           <br></br>
 
-          <p>Querem crescer profissionalmente sem perder a vida pessoal</p>
+          <p>
+            <img src={IconeConfirmacao} alt="" />
+            Querem crescer profissionalmente sem perder a vida pessoal
+          </p>
           <br></br>
 
           <p>
+            {" "}
+            <img src={IconeConfirmacao} alt="" />
             Acreditam que evolução real envolve consciência, identidade e
             propósito
           </p>
@@ -257,17 +272,35 @@ const App = () => {
           <h1>O que você encontra dentro da plataforma</h1>
           <h3>Ao entrar na comunidade, você tem acesso a:</h3>
 
-          <p>Aulas organizadas por pilares</p>
+          <p>
+            <img src={IconeConfirmacao} alt="" />
+            Aulas organizadas por pilares
+          </p>
 
-          <p>Conteúdos práticos e aplicáveis</p>
+          <p>
+            <img src={IconeConfirmacao} alt="" />
+            Conteúdos práticos e aplicáveis
+          </p>
 
-          <p>Entendem que resultado começa pelo corpo e pela mente</p>
+          <p>
+            <img src={IconeConfirmacao} alt="" />
+            Entendem que resultado começa pelo corpo e pela mente
+          </p>
 
-          <p>Exercícios e métodos de aplicação</p>
+          <p>
+            <img src={IconeConfirmacao} alt="" />
+            Exercícios e métodos de aplicação
+          </p>
 
-          <p>Atualizações constantes</p>
+          <p>
+            <img src={IconeConfirmacao} alt="" />
+            Atualizações constantes
+          </p>
 
-          <p>Um ambiente pensado para uso contínuo</p>
+          <p>
+            <img src={IconeConfirmacao} alt="" />
+            Um ambiente pensado para uso contínuo
+          </p>
 
           <Button Text="EU QUERO" />
         </div>

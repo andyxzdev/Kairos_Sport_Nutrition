@@ -20,3 +20,19 @@ button:hover {
   border: 2px solid #ffce41;
   border-radius: 0;
 }
+
+@media (max-width: 1559px) {
+  button {
+    width: 350px;
+    height: 50px;
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 1120px) {
+  button {
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+  }
+}
