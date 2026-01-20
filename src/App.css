@@ -3,7 +3,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 85vh;
+  height: 80vh;
   width: 100%;
   padding: 0 70px;
   display: flex;
@@ -43,6 +43,7 @@
   text-align: center;
   justify-content: center;
   margin-top: 9vh;
+  padding: 0 20px;
 
   & button {
     margin-left: -30px;
@@ -72,7 +73,7 @@
     gap: 80px;
     flex-direction: row;
     margin: 130px 0;
-    margin-left: -30px;
+    margin-left: -20px;
 
     & .icone1 {
       display: flex;
@@ -1551,17 +1552,39 @@ footer {
   .OsTemas,
   .Oproblema,
   .Especialmente {
+    margin-left: 10px;
+
     & .ListaIcones {
       display: flex;
       flex-direction: column;
       gap: 40px;
       margin: 80px 0;
+      margin-left: -10px;
     }
   }
 
+  .Especialmente {
+    .texto {
+      & h1 {
+        margin-left: 0px;
+      }
+    }
+    & button {
+      margin-left: -40px;
+    }
+    & .ListaIcones {
+      margin-left: 0px;
+    }
+  }
+
+  .OsTemas {
+    & .ListaIcones {
+      margin-left: -14px;
+    }
+  }
   .Home {
     background-image: url("./assets/banners/banner responsivo.png");
-    height: 70vh;
+    height: 72vh;
 
     & .infos {
       margin-top: 40vh;
@@ -1638,6 +1661,34 @@ footer {
       }
     }
   }
+
+  .Oproblema {
+    margin-left: 20px;
+  }
+
+  .Especialmente {
+    .texto {
+      & h1 {
+        margin-left: -10px;
+      }
+    }
+
+    .ListaIcones {
+      margin-left: 0px;
+    }
+  }
+
+  .OsTemas {
+    .texto {
+      & h1 {
+        margin-left: -10px;
+      }
+    }
+
+    .ListaIcones {
+      margin-left: -20px;
+    }
+  }
 }
 
 @media (max-width: 575px) {
@@ -1692,6 +1743,7 @@ footer {
   }
 
   .Oproblema {
+    margin-left: 0px;
     & button {
       margin-left: 0px;
     }
@@ -1703,7 +1755,7 @@ footer {
     }
 
     & .ListaIcones {
-      margin-left: 8px;
+      margin-left: 10px;
     }
   }
 
@@ -1724,10 +1776,13 @@ footer {
   }
 
   .Especialmente {
-    & button {
-      margin-left: 10px;
-    }
     margin-top: 10vh;
+    margin-left: 0px;
+
+    & button {
+      margin-left: 0px;
+    }
+
     & .texto {
       & h1 {
         font-size: 25px;
@@ -1766,10 +1821,11 @@ footer {
   }
 
   .OsTemas {
-    & button {
-      margin-left: 10px;
-    }
     margin-top: 10vh;
+
+    & button {
+      margin-left: 0px;
+    }
     & .texto {
       & h1 {
         font-size: 25px;
@@ -1777,7 +1833,7 @@ footer {
     }
 
     & .ListaIcones {
-      margin-left: 10px;
+      margin-left: 0px;
     }
   }
 
@@ -1821,21 +1877,21 @@ footer {
       padding-left: 0px;
     }
   }
+
+  footer {
+    width: 100%;
+
+    & h3 {
+      font-size: 14px;
+    }
+
+    & p {
+      font-size: 12px;
+    }
+  }
 }
 
-footer {
-  width: 100%;
-
-  & h3 {
-    font-size: 14px;
-  }
-
-  & p {
-    font-size: 12px;
-  }
-}
-
-@media (max-width: 393px) {
+@media (max-width: 431px) {
   .Home {
     height: 59vh;
 
@@ -1844,7 +1900,170 @@ footer {
       margin-left: -20px;
 
       & img {
-        width: 200px;
+        width: 180px;
+        margin-left: 45px;
+      }
+
+      & .tituloHome {
+        font-size: 16px;
+      }
+
+      & h3 {
+        font-size: 12px;
+        margin-left: 20px;
+        margin-bottom: 17px;
+        margin-top: 17px;
+      }
+
+      & button {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .Oproblema {
+    padding: 0 10px;
+    margin-left: 0px;
+    & .texto {
+      & h1 {
+        font-size: 20px;
+      }
+    }
+
+    & .ListaIcones {
+      margin-left: 0px;
+    }
+
+    & button {
+      margin-left: 0px;
+    }
+  }
+
+  .OqueE {
+    & .infos {
+      margin-left: 30px;
+      padding: 0;
+
+      & button {
+        margin-left: 0px;
+      }
+
+      & h1 {
+        font-size: 27px;
+      }
+    }
+
+    & .imagem img {
+      margin-left: -20px;
+    }
+  }
+
+  .ParaQuem {
+    & .infos {
+      & h1 {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .Especialmente {
+    margin-left: 0px;
+    & .texto {
+      & h1 {
+        font-size: 24px;
+      }
+    }
+
+    & button {
+      margin-left: 10px;
+    }
+
+    & .ListaIcones {
+      margin-left: 10px;
+    }
+  }
+
+  .OqueVoce {
+    & .infos {
+      & button {
+        margin-left: -20px;
+      }
+    }
+  }
+
+  .OqueVoceEncontra {
+    & .infos {
+      & button {
+        margin-left: 20px;
+      }
+    }
+  }
+
+  .OsTemas {
+    & .texto {
+      & h1 {
+        font-size: 24px;
+      }
+    }
+
+    & .ListaIcones {
+      margin-left: -5px;
+    }
+
+    & button {
+      margin-left: -20px;
+    }
+  }
+
+  .QuemEsta {
+    margin-left: 2px;
+    & .infos {
+      & h1 {
+        font-size: 24px;
+      }
+
+      & h3 {
+        font-size: 17px;
+      }
+    }
+  }
+
+  .OportunidadeExc {
+    & .infos {
+      & .QuadradoPreco {
+        & button {
+          margin-left: -5px;
+        }
+      }
+    }
+  }
+
+  .ParaQuem,
+  .QuemEsta,
+  .ProntoPara,
+  .OqueVoce {
+    & .imagem img {
+      margin-left: -30px;
+    }
+  }
+
+  .OqueVoceEncontra {
+    & .imagem img {
+      margin-left: 16px;
+    }
+  }
+}
+
+@media (max-width: 394px) {
+  .Home {
+    height: 59vh;
+
+    & .infos {
+      margin-top: 25vh;
+      margin-left: -20px;
+
+      & img {
+        width: 180px;
         margin-left: 45px;
       }
 
@@ -1903,6 +2122,9 @@ footer {
         font-size: 30px;
       }
     }
+    & button {
+      margin-left: -20px;
+    }
   }
 
   .Especialmente {
@@ -1941,7 +2163,7 @@ footer {
     }
 
     & .ListaIcones {
-      margin-left: 10px;
+      margin-left: 0px;
     }
 
     & button {
@@ -1958,6 +2180,10 @@ footer {
 
       & h3 {
         font-size: 17px;
+      }
+
+      & button {
+        margin-left: -20px;
       }
     }
   }
@@ -1984,6 +2210,14 @@ footer {
   .OqueVoceEncontra {
     & .imagem img {
       margin-left: 16px;
+    }
+  }
+
+  .ProntoPara {
+    & .infos {
+      & h1 {
+        font-size: 27px;
+      }
     }
   }
 }

@@ -76,7 +76,7 @@
     }
 
     & .videoItem {
-      width: 700px;
+      width: 300px;
 
       & video {
         width: 70%;
@@ -86,7 +86,7 @@
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 576px) {
   .VideoCarousel {
     height: 90vh;
     & .carousel {
@@ -94,7 +94,7 @@
     }
 
     & .videoItem {
-      width: 100%;
+      width: 60%;
 
       & video {
         width: 70%;
@@ -121,6 +121,10 @@
 @media (max-width: 430px) {
   .VideoCarousel {
     height: 80vh;
+
+    & h1 {
+      font-size: 25px;
+    }
 
     & .videoItem {
       & video {
