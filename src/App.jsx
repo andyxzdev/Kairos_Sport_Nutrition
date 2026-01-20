@@ -50,9 +50,12 @@ const App = () => {
           <img src={LogoHome} alt="Logo" data-aos="fade-right" />
 
           <div className="tituloHome">
-            <TypeAnimation
-              sequence={["Comunidade de alta performance integral"]}
-            />
+            {/* <TypeAnimation
+              sequence={["Comunidade de Alta Performance Integral"]}
+              speed={20}
+            /> */}
+
+            <h1>Comunidade de Alta Performance Integral</h1>
           </div>
 
           <h3 data-aos="fade-left">
@@ -471,15 +474,12 @@ const App = () => {
       </section>
 
       <footer>
-        <h3>
-          © 2026 Kairos Sport Nutrition 30.172.783/0001-51 | todos os direitos
-          reservados
-        </h3>
+        <h3>© 2026 Renan Vieira | todos os direitos reservados</h3>
 
         <p>
           desenvolvido por{" "}
           <a
-            href="http://"
+            href="https://www.instagram.com/andyxdev_/"
             className="externalLink"
             target="_blank"
             rel="noopener noreferrer"

@@ -46,6 +46,14 @@
   }
 }
 
+@media (min-width: 1120px) and (max-width: 1366px) {
+  .VideoCarousel {
+    & h1 {
+      font-size: 35px;
+    }
+  }
+}
+
 @media (max-width: 1120px) {
   .VideoCarousel {
     & h1 {
@@ -119,6 +127,14 @@
         width: 50%;
         height: 350px;
       }
+    }
+  }
+}
+
+@media (max-width: 393px) {
+  .VideoCarousel {
+    & h1 {
+      font-size: 25px;
     }
   }
 }

@@ -14,7 +14,7 @@
     margin-top: 150px;
 
     & .tituloHome {
-      font-size: 70px;
+      font-size: 35px;
       font-weight: 700;
       color: #e3c05a;
       margin-top: 50px;
@@ -44,7 +44,12 @@
   justify-content: center;
   margin-top: 9vh;
 
+  & button {
+    margin-left: -30px;
+  }
+
   & .texto {
+    margin-left: -20px;
     & h1 {
       font-size: 50px;
       font-weight: 700;
@@ -67,6 +72,7 @@
     gap: 80px;
     flex-direction: row;
     margin: 130px 0;
+    margin-left: -30px;
 
     & .icone1 {
       display: flex;
@@ -203,12 +209,17 @@
   justify-content: center;
   margin-top: 25vh;
 
+  & button {
+    margin-left: -100px;
+  }
+
   & .texto {
     & h1 {
       font-size: 50px;
       font-weight: 700;
       color: #e3c05a;
       margin-bottom: 40px;
+      margin-left: -40px;
     }
   }
 
@@ -219,6 +230,7 @@
     gap: 80px;
     flex-direction: row;
     margin: 130px 0;
+    margin-left: -50px;
 
     & .icone1 {
       display: flex;
@@ -356,6 +368,10 @@
   justify-content: center;
   margin-top: 20vh;
 
+  & button {
+    margin-left: -50px;
+  }
+
   & .texto {
     & h1 {
       font-size: 50px;
@@ -390,7 +406,7 @@
         margin-top: 50px;
 
         & #IconeCerebro {
-          width: 105px;
+          width: 80px;
           height: auto;
         }
 
@@ -644,7 +660,7 @@ footer {
       margin-top: 120px;
 
       & .tituloHome {
-        font-size: 55px;
+        font-size: 30px;
       }
 
       & h3 {
@@ -924,13 +940,291 @@ footer {
   }
 }
 
+@media (min-width: 1121px) and (max-width: 1366px) {
+  .Home {
+    height: 84.5vh;
+    & .infos {
+      margin-top: 80px;
+
+      & .tituloHome {
+        font-size: 30px;
+        margin-bottom: 40px;
+      }
+
+      & h3 {
+        font-size: 15px;
+      }
+
+      & img {
+        width: 300px;
+      }
+    }
+  }
+
+  .Oproblema {
+    margin-top: 12vh;
+
+    & .texto {
+      & h1 {
+        font-size: 35px;
+      }
+
+      & h3 {
+        font-size: 20px;
+      }
+    }
+
+    .ListaIcones {
+      gap: 60px;
+      margin-top: 20px;
+      margin-bottom: 120px;
+      padding-right: 30px;
+
+      & .icone1 {
+        & .circulo {
+          width: 80px;
+          height: 80px;
+
+          & #IconeBateria {
+            width: 50px;
+          }
+
+          & #IconeDeslike {
+            width: 50px;
+          }
+
+          & #IconeGrafico {
+            width: 50px;
+          }
+
+          & #IconeBalanca {
+            width: 50px;
+          }
+
+          & img {
+            width: 35px;
+            height: auto;
+          }
+        }
+
+        & p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .OqueE {
+    & .infos {
+      & h1 {
+        font-size: 35px;
+      }
+
+      & h3 {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .ParaQuem {
+    & .infos {
+      & h1 {
+        font-size: 35px;
+      }
+
+      & h3 {
+        font-size: 20px;
+      }
+
+      & p {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .Especialmente {
+    & .texto {
+      & h1 {
+        font-size: 35px;
+      }
+    }
+
+    .ListaIcones {
+      gap: 60px;
+      margin-top: 80px;
+      margin-bottom: 120px;
+      padding-right: 30px;
+
+      & .icone1 {
+        & .circulo {
+          width: 80px;
+          height: 80px;
+
+          & #IconeEmpresarios {
+            width: 40px;
+          }
+
+          & #IconePessoas {
+            width: 40px;
+          }
+
+          & img {
+            width: 40px;
+            height: auto;
+          }
+        }
+
+        & p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .OqueVoce {
+    & .infos {
+      & h1 {
+        font-size: 35px;
+      }
+
+      & h3 {
+        font-size: 20px;
+      }
+
+      & p {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .OqueVoceEncontra {
+    & .infos {
+      & h1 {
+        font-size: 35px;
+      }
+
+      & h3 {
+        font-size: 20px;
+      }
+
+      & p {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .OsTemas {
+    & .texto {
+      & h1 {
+        font-size: 35px;
+      }
+    }
+
+    .ListaIcones {
+      gap: 60px;
+      margin-top: 80px;
+      margin-bottom: 120px;
+      padding-right: 30px;
+
+      & .icone1 {
+        & .circulo {
+          width: 80px;
+          height: 80px;
+
+          & #IconeCerebro {
+            width: 50px;
+          }
+
+          & #IconeEngrenagem {
+            width: 50px;
+          }
+
+          & #IconeTempo {
+            width: 50px;
+          }
+
+          & #IconeCoracao {
+            width: 50px;
+          }
+
+          & #IconePessoaEngrenagem {
+            width: 50px;
+          }
+
+          & #IconeAlvo {
+            width: 50px;
+          }
+
+          & img {
+            width: 40px;
+            height: auto;
+          }
+        }
+
+        & p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .QuemEsta {
+    & .infos {
+      & h1 {
+        font-size: 35px;
+      }
+
+      & h3 {
+        font-size: 20px;
+      }
+
+      & p {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .OportunidadeExc {
+    & .infos {
+      & h1 {
+        font-size: 35px;
+        margin-left: 70px;
+      }
+
+      & .QuadradoPreco {
+        width: 90%;
+        height: auto;
+        margin-left: 50px;
+      }
+    }
+  }
+
+  .ProntoPara {
+    & .infos {
+      & h1 {
+        font-size: 35px;
+      }
+
+      & h3 {
+        font-size: 20px;
+      }
+    }
+  }
+
+  footer {
+    & p {
+      font-size: 12px;
+    }
+  }
+}
+
 @media (max-width: 1120px) {
   .Home {
     & .infos {
       margin-top: 90px;
 
       & .tituloHome {
-        font-size: 45px;
+        font-size: 22px;
         margin-top: 20px;
       }
 
@@ -1275,7 +1569,7 @@ footer {
       & .tituloHome {
         width: 80vw;
         height: auto;
-        font-size: 40px;
+        font-size: 25px;
       }
 
       & h3 {
@@ -1336,7 +1630,7 @@ footer {
       margin-top: 35vh;
 
       & .tituloHome {
-        font-size: 30px;
+        font-size: 20px;
       }
 
       & h3 {
@@ -1353,7 +1647,7 @@ footer {
       margin-top: 38vh;
 
       & .tituloHome {
-        font-size: 30px;
+        font-size: 20px;
       }
 
       & h3 {
@@ -1372,15 +1666,16 @@ footer {
     height: 57vh;
     & .infos {
       margin-top: 25vh;
-      margin-left: -10px;
+      margin-left: -5px;
 
       & .tituloHome {
-        font-size: 32px;
+        font-size: 17px;
+        margin-left: -10px;
       }
 
       & h3 {
         font-size: 14px;
-        margin-left: 18px;
+        margin-left: 2px;
       }
     }
   }
@@ -1397,8 +1692,11 @@ footer {
   }
 
   .Oproblema {
-    padding-left: 25px;
+    & button {
+      margin-left: 0px;
+    }
     & .texto {
+      margin-left: 0px;
       & h1 {
         font-size: 25px;
       }
@@ -1410,6 +1708,7 @@ footer {
   }
 
   .OqueE {
+    margin-left: -12px;
     margin-top: 10vh;
     & .infos {
       padding-left: 25px;
@@ -1421,30 +1720,32 @@ footer {
 
   .ParaQuem {
     margin-top: 10vh;
-    & .infos {
-      padding-left: 25px;
-    }
+    margin-left: -5px;
   }
 
   .Especialmente {
+    & button {
+      margin-left: 10px;
+    }
     margin-top: 10vh;
     & .texto {
       & h1 {
         font-size: 25px;
+        margin-left: 0px;
       }
     }
 
     & .ListaIcones {
-      margin-left: 28px;
+      margin-left: 20px;
     }
   }
 
   .OqueVoce {
     margin-top: 10vh;
+    margin-left: -10px;
 
     & .infos {
-      padding-left: 25px;
-
+      margin-left: 10px;
       & h1 {
         font-size: 27px;
       }
@@ -1453,17 +1754,21 @@ footer {
 
   .OqueVoceEncontra {
     margin-top: 10vh;
+    margin-left: -10px;
 
     & .imagem img {
       margin-left: 15px;
     }
 
     & .infos {
-      padding-left: 25px;
+      padding-left: 10px;
     }
   }
 
   .OsTemas {
+    & button {
+      margin-left: 10px;
+    }
     margin-top: 10vh;
     & .texto {
       & h1 {
@@ -1472,19 +1777,16 @@ footer {
     }
 
     & .ListaIcones {
-      margin-left: 8px;
+      margin-left: 10px;
     }
   }
 
   .QuemEsta {
     margin-top: 10vh;
+    margin-left: -5px;
 
     & .imagem img {
-      margin-left: -10px;
-    }
-
-    & .infos {
-      padding-left: 25px;
+      margin-left: -20px;
     }
   }
 
@@ -1493,12 +1795,12 @@ footer {
     margin-top: 10vh;
 
     & .imagem img {
-      margin-left: 15px;
+      margin-left: -5px;
     }
 
     & .infos {
       & .QuadradoPreco {
-        margin-left: 10px;
+        margin-left: 0px;
         width: 100%;
 
         & h2 {
@@ -1512,19 +1814,176 @@ footer {
     margin-top: 5vh;
 
     & .imagem img {
-      margin-left: -10px;
+      margin-left: -26px;
     }
 
     & .infos {
-      padding-left: 25px;
+      padding-left: 0px;
     }
   }
 }
 
 footer {
-  width: 104%;
+  width: 100%;
 
   & h3 {
-    font-size: 15px;
+    font-size: 14px;
+  }
+
+  & p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 393px) {
+  .Home {
+    height: 59vh;
+
+    & .infos {
+      margin-top: 25vh;
+      margin-left: -20px;
+
+      & img {
+        width: 200px;
+        margin-left: 45px;
+      }
+
+      & .tituloHome {
+        font-size: 13px;
+      }
+
+      & h3 {
+        font-size: 12px;
+        margin-left: 20px;
+        margin-bottom: 17px;
+        margin-top: 17px;
+      }
+
+      & button {
+        margin-left: 0px;
+      }
+    }
+  }
+
+  .Oproblema {
+    padding: 0 10px;
+    & .texto {
+      & h1 {
+        font-size: 20px;
+      }
+    }
+
+    & button {
+      margin-left: 10px;
+    }
+  }
+
+  .OqueE {
+    & .infos {
+      margin-left: 30px;
+      padding: 0;
+
+      & button {
+        margin-left: -25px;
+      }
+
+      & h1 {
+        font-size: 27px;
+      }
+    }
+
+    & .imagem img {
+      margin-left: -20px;
+    }
+  }
+
+  .ParaQuem {
+    & .infos {
+      & h1 {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .Especialmente {
+    & .texto {
+      & h1 {
+        font-size: 24px;
+      }
+    }
+
+    & button {
+      margin-left: 10px;
+    }
+  }
+
+  .OqueVoce {
+    & .infos {
+      & button {
+        margin-left: -20px;
+      }
+    }
+  }
+
+  .OqueVoceEncontra {
+    & .infos {
+      & button {
+        margin-left: 20px;
+      }
+    }
+  }
+
+  .OsTemas {
+    & .texto {
+      & h1 {
+        font-size: 24px;
+      }
+    }
+
+    & .ListaIcones {
+      margin-left: 10px;
+    }
+
+    & button {
+      margin-left: 0px;
+    }
+  }
+
+  .QuemEsta {
+    margin-left: 2px;
+    & .infos {
+      & h1 {
+        font-size: 24px;
+      }
+
+      & h3 {
+        font-size: 17px;
+      }
+    }
+  }
+
+  .OportunidadeExc {
+    & .infos {
+      & .QuadradoPreco {
+        & button {
+          margin-left: -5px;
+        }
+      }
+    }
+  }
+
+  .ParaQuem,
+  .QuemEsta,
+  .ProntoPara,
+  .OqueVoce {
+    & .imagem img {
+      margin-left: -30px;
+    }
+  }
+
+  .OqueVoceEncontra {
+    & .imagem img {
+      margin-left: 16px;
+    }
   }
 }
