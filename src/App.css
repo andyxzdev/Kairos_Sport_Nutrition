@@ -2221,3 +2221,169 @@ footer {
     }
   }
 }
+
+@media (max-width: 413px) {
+  .Home {
+    & .infos {
+      & .tituloHome {
+        font-size: 13px;
+      }
+
+      & h3 {
+        font-size: 12px;
+        margin-left: 20px;
+        margin-bottom: 17px;
+        margin-top: 17px;
+      }
+
+      & button {
+        margin-left: 0px;
+      }
+    }
+  }
+
+  .Oproblema {
+    padding: 0 10px;
+    & .texto {
+      & h1 {
+        font-size: 20px;
+      }
+    }
+
+    & button {
+      margin-left: 5px;
+    }
+
+    & .ListaIcones {
+      margin-left: 10px;
+    }
+  }
+
+  .OqueE {
+    & .infos {
+      margin-left: 30px;
+      padding: 0;
+
+      & button {
+        margin-left: -25px;
+      }
+
+      & h1 {
+        font-size: 27px;
+      }
+    }
+
+    & .imagem img {
+      margin-left: -20px;
+    }
+  }
+
+  .ParaQuem {
+    & .infos {
+      & h1 {
+        font-size: 30px;
+      }
+    }
+    & button {
+      margin-left: -20px;
+    }
+  }
+
+  .Especialmente {
+    & .texto {
+      & h1 {
+        font-size: 24px;
+      }
+    }
+
+    & button {
+      margin-left: 10px;
+    }
+  }
+
+  .OqueVoce {
+    & .infos {
+      & button {
+        margin-left: -10px;
+      }
+    }
+  }
+
+  .OqueVoceEncontra {
+    & .infos {
+      & button {
+        margin-left: 20px;
+      }
+    }
+  }
+
+  .OsTemas {
+    & .texto {
+      & h1 {
+        font-size: 24px;
+      }
+    }
+
+    & .ListaIcones {
+      margin-left: 5px;
+    }
+
+    & button {
+      margin-left: 0px;
+    }
+  }
+
+  .QuemEsta {
+    margin-left: 5px;
+    & .infos {
+      & h1 {
+        font-size: 24px;
+      }
+
+      & h3 {
+        font-size: 17px;
+      }
+
+      & button {
+        margin-left: -20px;
+      }
+    }
+  }
+
+  .OportunidadeExc {
+    & .infos {
+      & .QuadradoPreco {
+        & button {
+          margin-left: -5px;
+        }
+      }
+    }
+  }
+
+  .ParaQuem,
+  .QuemEsta,
+  .ProntoPara,
+  .OqueVoce {
+    & .imagem img {
+      margin-left: -30px;
+    }
+  }
+
+  .OqueVoceEncontra {
+    & .imagem img {
+      margin-left: 16px;
+    }
+  }
+
+  .ProntoPara {
+    & .infos {
+      & h1 {
+        font-size: 27px;
+      }
+
+      & button {
+        margin-left: -20px;
+      }
+    }
+  }
+}

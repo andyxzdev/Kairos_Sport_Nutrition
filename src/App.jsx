@@ -47,7 +47,7 @@ const App = () => {
     <>
       <section className="Home">
         <div className="infos">
-          <img src={LogoHome} alt="Logo" data-aos="fade-right" />
+          <img src={LogoHome} alt="Logo" data-aos="fade-up" />
 
           <div className="tituloHome">
             {/* <TypeAnimation
@@ -58,7 +58,7 @@ const App = () => {
             <h1>Comunidade de Alta Performance Integral</h1>
           </div>
 
-          <h3 data-aos="fade-left">
+          <h3 data-aos="fade-down">
             Evolua corpo, mente, emoções, produtividade e propósito de forma
             integrada e sustentável.<br></br>
             <br></br>
@@ -66,7 +66,7 @@ const App = () => {
             processo.
           </h3>
 
-          <Button Text="QUERO EVOLUIR" data-aos="fade-left" />
+          <Button Text="QUERO EVOLUIR" />
         </div>
       </section>
 
@@ -82,7 +82,7 @@ const App = () => {
           </h3>
         </div>
 
-        <div className="ListaIcones" data-aos="fade-left">
+        <div className="ListaIcones" data-aos="fade-up">
           <div className="icone1">
             <div className="circulo">
               <img src={IconeBateria} alt="" id="IconeBateria" />
@@ -128,7 +128,7 @@ const App = () => {
           </div>
         </div>
 
-        <Button Text="ENTRAR NA COMUNIDADE" />
+        <Button Text="ENTRAR NA COMUNIDADE" data-aos="fade-down" />
       </section>
 
       <section className="OqueE">
@@ -155,7 +155,7 @@ const App = () => {
       </section>
 
       <section className="ParaQuem">
-        <div className="infos" data-aos="fade-right">
+        <div className="infos" data-aos="fade-left">
           <h1>Para quem essa comunidade é?</h1>
           <h3>Essa comunidade é para pessoas que:</h3>
           <p>
@@ -201,7 +201,7 @@ const App = () => {
           <Button Text="EU QUERO AGORA" />
         </div>
 
-        <div className="imagem" data-aos="fade-left">
+        <div className="imagem" data-aos="fade-up">
           <img src={ImagemParaQuem} alt="" />
         </div>
       </section>
@@ -271,7 +271,7 @@ const App = () => {
       </section>
 
       <section className="OqueVoceEncontra">
-        <div className="infos" data-aos="fade-left">
+        <div className="infos" data-aos="fade-right">
           <h1>O que você encontra dentro da plataforma</h1>
           <h3>Ao entrar na comunidade, você tem acesso a:</h3>
 
@@ -308,7 +308,7 @@ const App = () => {
           <Button Text="EU QUERO" />
         </div>
 
-        <div className="imagem" data-aos="fade-right">
+        <div className="imagem" data-aos="fade-down">
           <img src={ImagemOqueVoceEncontra} alt="" />
         </div>
       </section>
@@ -413,11 +413,11 @@ const App = () => {
       <VideoCarousel />
 
       <section className="OportunidadeExc">
-        <div className="imagem" data-aos="fade-right">
-          <img src={ImagemOportunidade} alt="" />
+        <div className="imagem">
+          <img src={ImagemOportunidade} alt="" data-aos="fade-up" />
         </div>
 
-        <div className="infos" data-aos="fade-left">
+        <div className="infos" data-aos="fade-down">
           <h1>Oportunidade exclusiva</h1>
           <div className="QuadradoPreco">
             <p>Acesso completo à plataforma</p>
