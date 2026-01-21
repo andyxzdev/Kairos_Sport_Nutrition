@@ -44,6 +44,35 @@
     width: 720px;
     height: 400px;
   }
+
+  & .navButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #e3c05a;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 3;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #e3c05a;
+      color: #000;
+    }
+  }
+
+  & .navButton.left {
+    left: 40px;
+  }
+
+  & .navButton.right {
+    right: 40px;
+  }
 }
 
 @media (min-width: 1120px) and (max-width: 1366px) {
@@ -89,6 +118,7 @@
 @media (max-width: 576px) {
   .VideoCarousel {
     height: 90vh;
+
     & .carousel {
       width: 100%;
     }

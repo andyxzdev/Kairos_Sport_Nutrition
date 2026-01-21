@@ -1,5 +1,5 @@
 .Home {
-  background-image: url("./assets/banners/banner\ topo.png");
+  background-image: url("./assets/banners/banners-michelle2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -941,7 +941,7 @@ footer {
   }
 }
 
-@media (min-width: 1121px) and (max-width: 1366px) {
+@media (min-width: 1366px) and (max-width: 1558px) {
   .Home {
     height: 84.5vh;
     & .infos {
@@ -1054,7 +1054,7 @@ footer {
       gap: 60px;
       margin-top: 80px;
       margin-bottom: 120px;
-      padding-right: 30px;
+      padding-right: 0px;
 
       & .icone1 {
         & .circulo {
@@ -1188,8 +1188,10 @@ footer {
   .OportunidadeExc {
     & .infos {
       & h1 {
-        font-size: 35px;
-        margin-left: 70px;
+        text-align: center;
+        width: 90%;
+        font-size: 30px;
+        margin-left: 50px;
       }
 
       & .QuadradoPreco {
@@ -1213,6 +1215,10 @@ footer {
   }
 
   footer {
+    & h3 {
+      font-size: 20px;
+      margin-top: 30px;
+    }
     & p {
       font-size: 12px;
     }
@@ -1583,7 +1589,7 @@ footer {
     }
   }
   .Home {
-    background-image: url("./assets/banners/banner responsivo.png");
+    background-image: url("./assets/banners/banners-michelle2responsivo.jpg");
     height: 72vh;
 
     & .infos {
@@ -2255,7 +2261,7 @@ footer {
     }
 
     & .ListaIcones {
-      margin-left: 10px;
+      margin-left: 5px;
     }
   }
 
@@ -2325,7 +2331,7 @@ footer {
     }
 
     & .ListaIcones {
-      margin-left: 5px;
+      margin-left: -5px;
     }
 
     & button {

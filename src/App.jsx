@@ -34,6 +34,18 @@ import ImagemQuemEsta from "./assets/arts/art renan.png";
 import ImagemOportunidade from "./assets/arts/xadrez.jpg";
 import ImagemProntoPara from "./assets/arts/bloco  - pronto para dar o proximo passo.png";
 
+const nextVideo = () => {
+  if (activeIndex < videos.length - 1) {
+    setActiveIndex(activeIndex + 1);
+  }
+};
+
+const prevVideo = () => {
+  if (activeIndex > 0) {
+    setActiveIndex(activeIndex - 1);
+  }
+};
+
 const App = () => {
   useEffect(() => {
     AOS.init({

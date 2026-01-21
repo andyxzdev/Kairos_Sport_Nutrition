@@ -36,6 +36,18 @@ const VideoCarousel = () => {
     isDragging.current = false;
   };
 
+  const nextVideo = () => {
+    if (activeIndex < videos.length - 1) {
+      setActiveIndex(activeIndex + 1);
+    }
+  };
+
+  const prevVideo = () => {
+    if (activeIndex > 0) {
+      setActiveIndex(activeIndex - 1);
+    }
+  };
+
   return (
     <section className="VideoCarousel">
       <h1>Resultados construídos na prática</h1>
@@ -47,6 +59,14 @@ const VideoCarousel = () => {
         onTouchStart={handleStart}
         onTouchEnd={handleEnd}
       >
+        <button className="navButton left" onClick={prevVideo}>
+          ‹
+        </button>
+
+        <button className="navButton right" onClick={nextVideo}>
+          ›
+        </button>
+
         {videos.map((video, index) => {
           const offset = index - activeIndex;
 
