@@ -1894,12 +1894,12 @@ footer {
       margin-left: -5px;
 
       & .tituloHome {
-        font-size: 17px;
+        font-size: 20px;
         margin-left: -10px;
       }
 
       & h3 {
-        font-size: 14px;
+        font-size: 18px;
         margin-left: 2px;
       }
     }
@@ -1971,6 +1971,7 @@ footer {
 
   .Oproblema {
     margin-left: 0px;
+    margin-top: 18vh;
     & button {
       margin-left: 0px;
     }
@@ -2128,16 +2129,16 @@ footer {
       margin-left: -20px;
 
       & img {
-        width: 180px;
+        width: 250px;
         margin-left: 45px;
       }
 
       & .tituloHome {
-        font-size: 16px;
+        font-size: 18px;
       }
 
       & h3 {
-        font-size: 12px;
+        font-size: 17px;
         margin-left: 20px;
         margin-bottom: 17px;
         margin-top: 17px;
@@ -2150,6 +2151,7 @@ footer {
   }
 
   .Oproblema {
+    margin-top: 18vh;
     padding: 0 10px;
     margin-left: 0px;
     & .texto {
@@ -2284,23 +2286,23 @@ footer {
 
 @media (max-width: 394px) {
   .Home {
-    height: 59vh;
+    height: 70vh;
 
     & .infos {
-      margin-top: 25vh;
-      margin-left: -20px;
+      margin-top: 32vh;
 
       & img {
-        width: 180px;
+        width: 230px;
         margin-left: 45px;
       }
 
       & .tituloHome {
-        font-size: 13px;
+        font-size: 16px;
       }
 
       & h3 {
-        font-size: 12px;
+        font-size: 18px;
+        width: 100%;
         margin-left: 20px;
         margin-bottom: 17px;
         margin-top: 17px;
@@ -2313,6 +2315,7 @@ footer {
   }
 
   .Oproblema {
+    margin-top: 20vh;
     padding: 0 10px;
     & .texto {
       & h1 {
@@ -2450,15 +2453,17 @@ footer {
   }
 }
 
-@media (max-width: 413px) {
+@media (min-width: 395px) and (max-width: 413px) {
   .Home {
+    height: 75vh;
     & .infos {
+      margin-top: 35vh;
       & .tituloHome {
-        font-size: 13px;
+        font-size: 17px;
       }
 
       & h3 {
-        font-size: 12px;
+        font-size: 18px;
         margin-left: 20px;
         margin-bottom: 17px;
         margin-top: 17px;
@@ -2471,6 +2476,7 @@ footer {
   }
 
   .Oproblema {
+    margin-top: 20vh;
     padding: 0 10px;
     & .texto {
       & h1 {
