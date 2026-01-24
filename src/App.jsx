@@ -6,6 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 
 import Button from "./components/Button/Button";
 import VideoCarousel from "./components/VideoCarousel/VideoCarousel.jsx";
+import WhatsAppButton from "./components/whatsapp-button/whastappButton.jsx";
 
 import LogoHome from "./assets/logos/logo branca2.png";
 
@@ -501,6 +502,7 @@ const App = () => {
           <img src={IconceLink} alt="" />
         </p>
       </footer>
+      <WhatsAppButton />
     </>
   );
 };
