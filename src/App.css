@@ -11,13 +11,13 @@
   & .infos {
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 90px;
 
     & .tituloHome {
-      font-size: 45px;
+      font-size: 42px;
       font-weight: 700;
       color: #e3c05a;
-      margin-top: 50px;
+      margin-top: 30px;
       margin-left: 0px;
       width: 55vw;
     }
@@ -29,7 +29,7 @@
     }
 
     & h3 {
-      font-size: 34px;
+      font-size: 30px;
       width: 60%;
       font-weight: 500;
       margin-top: 28px;
