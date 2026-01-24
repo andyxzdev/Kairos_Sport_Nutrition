@@ -43,14 +43,8 @@
   text-align: center;
   justify-content: center;
   margin-top: 9vh;
-  padding: 0 20px;
-
-  & button {
-    margin-left: -30px;
-  }
 
   & .texto {
-    margin-left: -20px;
     & h1 {
       font-size: 50px;
       font-weight: 700;
@@ -210,17 +204,12 @@
   justify-content: center;
   margin-top: 25vh;
 
-  & button {
-    margin-left: -100px;
-  }
-
   & .texto {
     & h1 {
       font-size: 50px;
       font-weight: 700;
       color: #e3c05a;
       margin-bottom: 40px;
-      margin-left: -20px;
     }
   }
 
@@ -231,7 +220,6 @@
     gap: 0px;
     flex-direction: row;
     margin: 130px 0;
-    margin-left: -50px;
 
     & .icone1 {
       display: flex;
@@ -368,10 +356,6 @@
   text-align: center;
   justify-content: center;
   margin-top: 20vh;
-
-  & button {
-    margin-left: -50px;
-  }
 
   & .texto {
     & h1 {
@@ -750,9 +734,6 @@ footer {
   }
 
   .Especialmente {
-    & button {
-      margin-left: -5vw;
-    }
     & .texto {
       & h1 {
         font-size: 45px;
@@ -762,7 +743,6 @@ footer {
     .ListaIcones {
       margin-top: 80px;
       margin-bottom: 120px;
-      padding-left: 2vw;
 
       & .icone1 {
         & .circulo {
@@ -833,7 +813,6 @@ footer {
       gap: 0px;
       margin-top: 80px;
       margin-bottom: 120px;
-      padding-right: 30px;
 
       & .icone1 {
         & .circulo {
@@ -971,7 +950,7 @@ footer {
       }
     }
 
-    .ListaIcones {
+    &.ListaIcones {
       gap: 60px;
       margin-top: 20px;
       margin-bottom: 120px;
@@ -1039,9 +1018,6 @@ footer {
   }
 
   .Especialmente {
-    & button {
-      margin-left: -4vw;
-    }
     & .texto {
       & h1 {
         font-size: 35px;
@@ -1052,7 +1028,6 @@ footer {
       gap: 60px;
       margin-top: 80px;
       margin-bottom: 120px;
-      padding-right: 0px;
 
       & .icone1 {
         & .circulo {
@@ -1260,7 +1235,7 @@ footer {
       }
     }
 
-    .ListaIcones {
+    & .ListaIcones {
       gap: 60px;
       margin-top: 20px;
       margin-bottom: 120px;
@@ -1338,7 +1313,6 @@ footer {
   }
 
   .Especialmente {
-    padding-left: 5vw;
     & .texto {
       & h1 {
         font-size: 35px;
