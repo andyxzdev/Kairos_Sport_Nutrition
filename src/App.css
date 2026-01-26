@@ -957,27 +957,27 @@ footer {
 
       & .icone1 {
         & .circulo {
-          width: 160px;
-          height: 160px;
+          width: 130px;
+          height: 130px;
 
           & #IconeBateria {
-            width: 100px;
+            width: 90px;
           }
 
           & #IconeDeslike {
-            width: 90px;
+            width: 80px;
           }
 
           & #IconeGrafico {
-            width: 90px;
+            width: 80px;
           }
 
           & #IconeBalanca {
-            width: 100px;
+            width: 90px;
           }
 
           & img {
-            width: 70px;
+            width: 60px;
             height: auto;
           }
         }
@@ -1030,19 +1030,19 @@ footer {
 
       & .icone1 {
         & .circulo {
-          width: 160px;
-          height: 160px;
+          width: 130px;
+          height: 130px;
 
           & #IconeEmpresarios {
-            width: 80px;
+            width: 70px;
           }
 
           & #IconePessoas {
-            width: 80px;
+            width: 70px;
           }
 
           & img {
-            width: 80px;
+            width: 70px;
             height: auto;
           }
         }
@@ -1100,35 +1100,35 @@ footer {
 
       & .icone1 {
         & .circulo {
-          width: 140px;
-          height: 140px;
+          width: 130px;
+          height: 130px;
 
           & #IconeCerebro {
-            width: 90px;
+            width: 80px;
           }
 
           & #IconeEngrenagem {
-            width: 90px;
+            width: 80px;
           }
 
           & #IconeTempo {
-            width: 90px;
+            width: 80px;
           }
 
           & #IconeCoracao {
-            width: 90px;
+            width: 80px;
           }
 
           & #IconePessoaEngrenagem {
-            width: 90px;
+            width: 80px;
           }
 
           & #IconeAlvo {
-            width: 90px;
+            width: 80px;
           }
 
           & img {
-            width: 90px;
+            width: 80px;
             height: auto;
           }
         }
@@ -1200,9 +1200,9 @@ footer {
   }
 }
 
-@media (min-width: 1365px) and (max-width: 1555px) {
+@media (min-width: 1504px) and (max-width: 1555px) {
   .Home {
-    height: 100vh;
+    height: 78vh;
     & .infos {
       margin-top: 60px;
 
@@ -1234,34 +1234,35 @@ footer {
       }
     }
 
-    &.ListaIcones {
-      gap: 60px;
+    & .ListaIcones {
+      gap: 20px;
       margin-top: 20px;
       margin-bottom: 120px;
+      margin-left: 0;
 
       & .icone1 {
         & .circulo {
-          width: 140px;
-          height: 140px;
+          width: 120px;
+          height: 120px;
 
           & #IconeBateria {
-            width: 100px;
+            width: 90px;
           }
 
           & #IconeDeslike {
-            width: 80px;
+            width: 70px;
           }
 
           & #IconeGrafico {
-            width: 80px;
+            width: 70px;
           }
 
           & #IconeBalanca {
-            width: 80px;
+            width: 70px;
           }
 
           & img {
-            width: 65px;
+            width: 55px;
             height: auto;
           }
         }
@@ -1315,19 +1316,19 @@ footer {
 
       & .icone1 {
         & .circulo {
-          width: 140px;
-          height: 140px;
+          width: 120px;
+          height: 120px;
 
           & #IconeEmpresarios {
-            width: 70px;
+            width: 60px;
           }
 
           & #IconePessoas {
-            width: 70px;
+            width: 65px;
           }
 
           & img {
-            width: 70px;
+            width: 60px;
             height: auto;
           }
         }
@@ -1385,35 +1386,35 @@ footer {
 
       & .icone1 {
         & .circulo {
-          width: 140px;
-          height: 140px;
+          width: 120px;
+          height: 120px;
 
           & #IconeCerebro {
-            width: 80px;
+            width: 70px;
           }
 
           & #IconeEngrenagem {
-            width: 80px;
+            width: 70px;
           }
 
           & #IconeTempo {
-            width: 80px;
+            width: 70px;
           }
 
           & #IconeCoracao {
-            width: 80px;
+            width: 70px;
           }
 
           & #IconePessoaEngrenagem {
-            width: 80px;
+            width: 70px;
           }
 
           & #IconeAlvo {
-            width: 80px;
+            width: 70px;
           }
 
           & img {
-            width: 80px;
+            width: 70px;
             height: auto;
           }
         }
@@ -1446,7 +1447,7 @@ footer {
       & h1 {
         text-align: center;
         width: 90%;
-        font-size: 40px;
+        font-size: 35px;
         margin-left: 50px;
       }
 
@@ -1456,7 +1457,295 @@ footer {
         margin-left: 50px;
 
         & h2 {
-          font-size: 80px;
+          font-size: 75px;
+        }
+      }
+    }
+  }
+
+  .ProntoPara {
+    & .infos {
+      & h1 {
+        font-size: 45px;
+      }
+
+      & h3 {
+        font-size: 30px;
+      }
+    }
+  }
+
+  footer {
+    & h3 {
+      font-size: 20px;
+      margin-top: 30px;
+    }
+    & p {
+      font-size: 12px;
+    }
+  }
+}
+
+/* MINHA TELA */
+
+@media (min-width: 1365px) and (max-width: 1503px) {
+  .Home {
+    height: 100vh;
+    & .infos {
+      margin-top: 60px;
+
+      & .tituloHome {
+        font-size: 30px;
+        /* width: 100%; */
+      }
+
+      & h3 {
+        font-size: 25px;
+      }
+
+      & img {
+        width: 400px;
+      }
+    }
+  }
+
+  .Oproblema {
+    margin-top: 12vh;
+
+    & .texto {
+      & h1 {
+        font-size: 45px;
+      }
+
+      & h3 {
+        font-size: 30px;
+      }
+    }
+
+    & .ListaIcones {
+      gap: 20px;
+      margin-top: 20px;
+      margin-bottom: 120px;
+      margin-left: 0;
+
+      & .icone1 {
+        & .circulo {
+          width: 120px;
+          height: 120px;
+
+          & #IconeBateria {
+            width: 90px;
+          }
+
+          & #IconeDeslike {
+            width: 70px;
+          }
+
+          & #IconeGrafico {
+            width: 70px;
+          }
+
+          & #IconeBalanca {
+            width: 70px;
+          }
+
+          & img {
+            width: 55px;
+            height: auto;
+          }
+        }
+
+        & p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .OqueE {
+    & .infos {
+      & h1 {
+        font-size: 45px;
+      }
+
+      & h3 {
+        font-size: 23px;
+      }
+    }
+  }
+
+  .ParaQuem {
+    & .infos {
+      & h1 {
+        font-size: 45px;
+      }
+
+      & h3 {
+        font-size: 30px;
+      }
+
+      & p {
+        font-size: 23px;
+      }
+    }
+  }
+
+  .Especialmente {
+    & .texto {
+      & h1 {
+        font-size: 35px;
+      }
+    }
+
+    .ListaIcones {
+      gap: 60px;
+      margin-top: 80px;
+      margin-bottom: 120px;
+
+      & .icone1 {
+        & .circulo {
+          width: 120px;
+          height: 120px;
+
+          & #IconeEmpresarios {
+            width: 60px;
+          }
+
+          & #IconePessoas {
+            width: 65px;
+          }
+
+          & img {
+            width: 60px;
+            height: auto;
+          }
+        }
+
+        & p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .OqueVoce {
+    & .infos {
+      & h1 {
+        font-size: 45px;
+      }
+
+      & h3 {
+        font-size: 30px;
+      }
+
+      & p {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .OqueVoceEncontra {
+    & .infos {
+      & h1 {
+        font-size: 45px;
+      }
+
+      & h3 {
+        font-size: 30px;
+      }
+
+      & p {
+        font-size: 25px;
+      }
+    }
+  }
+
+  .OsTemas {
+    & .texto {
+      & h1 {
+        font-size: 45px;
+      }
+    }
+
+    .ListaIcones {
+      gap: 20px;
+      margin-top: 80px;
+      margin-bottom: 120px;
+
+      & .icone1 {
+        & .circulo {
+          width: 120px;
+          height: 120px;
+
+          & #IconeCerebro {
+            width: 70px;
+          }
+
+          & #IconeEngrenagem {
+            width: 70px;
+          }
+
+          & #IconeTempo {
+            width: 70px;
+          }
+
+          & #IconeCoracao {
+            width: 70px;
+          }
+
+          & #IconePessoaEngrenagem {
+            width: 70px;
+          }
+
+          & #IconeAlvo {
+            width: 70px;
+          }
+
+          & img {
+            width: 70px;
+            height: auto;
+          }
+        }
+
+        & p {
+          font-size: 19px;
+        }
+      }
+    }
+  }
+
+  .QuemEsta {
+    & .infos {
+      & h1 {
+        font-size: 45px;
+      }
+
+      & h3 {
+        font-size: 30px;
+      }
+
+      & p {
+        font-size: 23px;
+      }
+    }
+  }
+
+  .OportunidadeExc {
+    & .infos {
+      & h1 {
+        text-align: center;
+        width: 90%;
+        font-size: 35px;
+        margin-left: 50px;
+      }
+
+      & .QuadradoPreco {
+        width: 90%;
+        height: auto;
+        margin-left: 50px;
+
+        & h2 {
+          font-size: 75px;
         }
       }
     }
@@ -1773,7 +2062,7 @@ footer {
   }
 }
 
-@media (max-width: 1120px) {
+@media (min-width: 821px) and (max-width: 1120px) {
   .Home {
     & .infos {
       margin-top: 50px;
@@ -1808,9 +2097,9 @@ footer {
     }
 
     & .ListaIcones {
-      gap: 60px;
       margin-top: 20px;
       margin-bottom: 120px;
+      margin-left: 0;
 
       & .icone1 {
         & .circulo {
